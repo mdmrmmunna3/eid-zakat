@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    background: linear-gradient(to left,
+            rgba(0,0,0,1),
+            rgba(0,0,0,.7),
+            rgba(0,0,0,.4),
+            rgba(0,0,0,0)),
+            url(imge/cow1.jpeg);
+
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    transform: scaleX(-1);
+    position: relative;
+    top: 0;
+    left: 0;
+    
+   
+}
+
+.main-part {
+    transform: scaleX(-1);
+    padding-top: 10%;
+    padding-left: 10%;
+    color: white;
+    text-align: justify;
+}
+
+#specail {
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    color: rgba(203, 255, 17, 0.897);
+}
+
+.main-part p {
+    font-size: 14px;
+    margin-bottom: 40px;
+    padding: 2px 0;
+}
+
+.link-btn {
+    background-image: linear-gradient(orange,red);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
