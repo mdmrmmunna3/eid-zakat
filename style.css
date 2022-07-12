@@ -9,6 +9,10 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+section{
+    margin-bottom: 6%;
+}
+
 .container {
     background: linear-gradient(to left,
             rgba(0,0,0,1),
@@ -33,7 +37,6 @@ body {
     transform: scaleX(-1);
     padding-top: 10%;
     padding-left: 10%;
-    color: white;
     text-align: justify;
 }
 
@@ -48,6 +51,7 @@ body {
     font-size: 14px;
     margin-bottom: 40px;
     padding: 2px 0;
+    color: white;
 }
 
 .link-btn {
@@ -56,4 +60,32 @@ body {
     border-radius: 10px;
     color: white;
     font-weight: 600;
+}
+
+.cattel-market {
+    display: flex;
+    margin-left: 10%;
+    
+}
+
+.market-details {
+    width: 50%;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 14px;
+    margin-bottom: 40px;
+    padding: 2px 0;
+    color: rgb(167, 162, 162); 
+}
+
+#iframe {
+    border-radius: 10px;
+    width: 80%;
+    height: 350px;
 }
