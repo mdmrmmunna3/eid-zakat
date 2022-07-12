@@ -94,3 +94,24 @@ p{
     width: 90%;
     border-radius: 10px;
 }
+
+.donation{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10%;
+}
+
+.direct-help {
+    padding: 30px 40px;
+    display: flex;
+    margin-right: 10%;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.507);
+   
+}
+
+.img{
+    padding-right: 10px;
+}
