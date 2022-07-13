@@ -115,3 +115,18 @@ p{
 .img{
     padding-right: 10px;
 }
+
+.parent{
+    display: flex;
+    margin-left: 10%;
+}
+
+.child img{
+    width: 90%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.child {
+    width: 33%;
+}
