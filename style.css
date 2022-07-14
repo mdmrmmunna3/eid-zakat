@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,6 +10,36 @@ body {
     flex-wrap: wrap;
 }
 
+
+header{
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(7, 29, 43, 0.192);
+    padding-top: 20px;
+    top: 0; left: 0; right: 0;
+    
+    position: fixed;
+    z-index: 1000;
+}
+
+#navbar a{
+    margin:0 2rem;
+    background-color: brown;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all ease;
+}
+
+#navbar a:hover{
+    background-color: blueviolet;
+    padding: 5px 18px;
+    font-style: italic;
+    font-weight: 700;
+}
 section{
     margin-bottom: 6%;
 }
@@ -26,7 +57,7 @@ section{
     width: 100%;
     background-position: center;
     transform: scaleX(-1);
-    
+    position: relative;
     top: 0;
     left: 0;
     
@@ -62,10 +93,29 @@ section{
     font-weight: 600;
 }
 
+.link-btn:hover{
+    padding: 10px 40px;
+    transition: 2s;
+}
+#styles{
+    background-image: linear-gradient(green,crimson);
+    height: 50px;
+    color: rgb(230, 245, 23);
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+#styles:hover{
+    color: cyan;
+}
+
 .cattel-market {
     display: flex;
     margin-left: 10%;
-    
 }
 
 .market-details {
