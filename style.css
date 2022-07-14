@@ -167,3 +167,17 @@ p{
     font-size: 14px;
     margin-left: 10px;
 }
+
+
+.footer{
+    background-color: black;
+    text-align: center;
+    height: 150px;
+}
+
+#last{
+    padding: 20px 0;
+    font-size: 30px;
+    color: crimson;
+    font-family: 'Pacifico', cursive;
+}
